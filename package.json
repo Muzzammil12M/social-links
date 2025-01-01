@@ -1,0 +1,27 @@
+{
+  "name": "social-links-profile-main",
+  "version": "1.0.0",
+  "description": "using js to alter the design",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muzzammil12M/social-links.git"
+  },
+  "keywords": [
+    "links"
+  ],
+  "author": "Muzzammil raji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muzzammil12M/social-links/issues"
+  },
+  "homepage": "https://github.com/Muzzammil12M/social-links#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.3",
+    "parcel": "^2.13.3",
+    "sass": "^1.83.0"
+  }
+}

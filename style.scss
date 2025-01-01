@@ -1,0 +1,86 @@
+$White: hsl(0, 0%, 100%);
+$Grey: hsl(0, 0%, 20%);
+$Dark-Grey: hsl(0, 0%, 12%);
+$Off-Black: hsl(0, 0%, 8%);
+$hover-Green: hsl(75, 94%, 57%);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: $Off-Black;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .body-link {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    height: 33.5rem;
+    width: 20rem;
+    text-decoration: none;
+    color: $White;
+    background-color: $Dark-Grey;
+    // border: 0.2rem solid blanchedalmond;
+    border-radius: 0.5rem;
+    &__name {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+    &__location {
+      margin-bottom: 1rem;
+      font-size: 2.2rem;
+    }
+    &__avatar {
+      width: 5rem;
+      height: 5rem;
+      object-fit: cover;
+      border-radius: 50% 50%;
+      margin: 2rem auto;
+    }
+    &__location {
+      color: $hover-Green;
+      font-size: 1.2rem;
+    }
+    &__about-author {
+      font-size: 1rem;
+      font-weight: 800;
+    }
+    &__social {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      text-align: center;
+      &-link {
+        text-decoration: none;
+        color: $White;
+        font-size: 1.2rem;
+        margin: 0.5rem;
+        background-color: $Grey;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        width: 15rem;
+        &:hover {
+          background-color: $hover-Green;
+          color: $Off-Black;
+        }
+      }
+    }
+  }
+}
+//---------------------------
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: inline;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

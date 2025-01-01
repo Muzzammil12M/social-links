@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Muzzammil12M/social-links.git"
+    "url": "git+https://github.com/Muzzammil12M/Social-link.git"
   },
   "keywords": [
     "links"
@@ -16,9 +16,9 @@
   "author": "Muzzammil raji",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Muzzammil12M/social-links/issues"
+    "url": "https://github.com/Muzzammil12M/Social-link/issues"
   },
-  "homepage": "https://github.com/Muzzammil12M/social-links#readme",
+  "homepage": "https://github.com/Muzzammil12M/Social-link#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.3",
     "parcel": "^2.13.3",
